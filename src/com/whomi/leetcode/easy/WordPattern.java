@@ -56,8 +56,8 @@ public class WordPattern {
     }
 
     public static void main(String[] args) {
-        String pattern = "abbacc";
-        String str = "dog cat cat dog pig pig";
+        String pattern = "abbacccab";
+        String str = "dog cat cat dog pig pig pig dog cat";
         System.out.println(wordPattern(pattern, str));
     }
 }
